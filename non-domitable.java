@@ -16,7 +16,7 @@ public class Solution {
         }
 
         int count = 0;
-        
+
         for (int i = 0; i < lines; i++) {
             boolean dominated = false;
             for (int j = 0; j < lines; j++) {
@@ -32,6 +32,7 @@ public class Solution {
                 count++;
             }
         }
+
         System.out.println(count);
     }
 }
